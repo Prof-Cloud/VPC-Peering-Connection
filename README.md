@@ -4,6 +4,7 @@ In this project, I created a VPC Peering Connection between 2 AWS regions: Londo
 
 I created everything using Terraform, including the VPCs, subnets, route tables, and the peering connection. I also created 2 security groups and 4 EC2 instances, 2 in London and 2 in Dubai, so I could test the network. I used a public EC2 instance in London to reach a private EC2 instance in Dubai, and then I tested it the other way around too. This helped me confirm that the peering connection was working correctly in both directions. 
 
+<img width="2520" height="1740" alt="Blank diagram" src="https://github.com/user-attachments/assets/bacba93c-e576-4851-8849-42d87e948bb2" />
 
 ## Highlighting the Important Features
 
